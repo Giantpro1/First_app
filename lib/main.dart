@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(AccessFlutterWidget());
+ 
 String buttonName = 'Clicked Me';
 int currentIndex = 0;
 
@@ -31,7 +31,6 @@ class _AccessFlutterWidgetState extends State<AccessFlutterWidget> {
                       ElevatedButton(
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.blue,
-                          //  Color:Colors.black,
                         ),
                         onPressed: () {
                           setState(() {
